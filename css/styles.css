@@ -129,6 +129,17 @@ body {
   margin-left: 50px;
 }
 
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
 .contact-link {
   display: block;
   font-weight: 500;
@@ -143,7 +154,6 @@ body {
 .contact-link:focus {
   color: var(--accent-color);
 }
-
 /* -----------------HERO----------------- */
 
 .hero {
@@ -194,15 +204,24 @@ body {
   margin: 0 auto;
 }
 
-.skills-item::before {
+/* .skills-item::before {
   content: '';
   width: 10px;
   height: 20px;
   background-image: url(../img/skill-antenna.svg);
   background-color: var(--secondary-background-color);
-}
+} */
 .skills-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.skills-icon {
+  width: 270px;
+  height: 120px;
+  background: var(--secondary-background-color);
+  border-radius: 4px;
+  padding: 25px 100px;
+  position: center;
 }
 
 .skill-title {
@@ -212,6 +231,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
+  margin-top: 30px;
   margin-bottom: 10px;
 
   color: var(--primary-color);
@@ -294,6 +314,19 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--primary-shade-color);
+}
+
+.temmate-social-item {
+  width: 44px;
+  height: 44px;
+}
+
+.temmate-social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  display: block;
+  background-color: var(--accent-color);
 }
 
 /* -----------------PORTFOLIO--filter-button---------------- */
