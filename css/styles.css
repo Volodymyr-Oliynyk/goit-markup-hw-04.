@@ -211,14 +211,14 @@ body {
 }
 
 .skill-background {
-  width: 270px;
-  height: 120px;
   border-radius: 4px;
   padding: 25px 100px;
 
   background: var(--secondary-background-color);
 }
-
+.skills-icon {
+  display: block;
+}
 .skill-title {
   font-weight: 700;
   font-size: 14px;
